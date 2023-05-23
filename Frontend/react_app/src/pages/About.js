@@ -1,32 +1,38 @@
 import React from "react";
-import "./css/all.min.css";
-import "./css/world.css";
-import "./css/normalize.css";
+import "./css/about.css";
+import Ibrahim_Elsheikh from "../imgs/Ibrahim_Elsheikh.jpg";
+import Mohamed_Zaki from "../imgs/Mohamed_Zaki.jpg";
+import Ahmed_Eida from "../imgs/Ahmed_Eida.png";
+import Mohamed_Abohend from "../imgs/Mohamed_Abohend.jpg";
+import Mohamed_Essam from "../imgs/Mohamed_Essam.png";
+import Mohamed_Fekry from "../imgs/Mohamed_Fekry.jpg";
+import Omer_Elbaz from "../imgs/Omer_Elbaz.png";
+
 
 function About() {
     return (
         <div className="team" id="team">
-            <h2 class="main-title">Team Members</h2>
-            <div class="container">
-                <div class="box">
+            <h2 className="main-title">Team Members</h2>
+            <div className="container">
+                <div className="box">
                     <div className="data">
-                        <div class="personal_photo"></div>
+                        <img src={Ibrahim_Elsheikh} alt=""/>
                         <div class="social">
                             <a href="https://www.facebook.com/ibrahelsheikh" target="_blank">
                                 <i className="fab fa-facebook-f"></i>
                             </a>
                             <a href="https://twitter.com/ibrahelsheikh/" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                                <i className="fab fa-twitter"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/ibrahelsheikh/" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
+                                <i className="fab fa-linkedin-in"></i>
                             </a>
                             <a href="https://github.com/ibrahelsheikh" target="_blank">
-                                <i class="fab fa-github"></i>
+                                <i className="fab fa-github"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="info">
+                    <div className="info">
                         <h3>Ibrahim Elsheikh</h3>
                         <p>Frontend</p>
                     </div>
@@ -34,20 +40,20 @@ function About() {
 
                 <div class="box">
                     <div class="data">
-                        <img src="../imgs/Mohamed_Zaki.jpg" alt=""/>
-                        <div class="social">
+                        <img src={Mohamed_Zaki} alt=""/>
+                        <div className="social">
                             <a href="https://www.facebook.com/profile.php?id=100061866082752"
                                target="_blank">
-                                <i class="fab fa-facebook-f"></i>
+                                <i className="fab fa-facebook-f"></i>
                             </a>
                             <a href="https://twitter.com/mohamed27496401" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/the-engineer-1b033a266/" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
+                                <i className="fab fa-linkedin-in"></i>
                             </a>
                             <a href="https://github.com/pythonmad" target="_blank">
-                                <i class="fab fa-github"></i>
+                                <i className="fab fa-github"></i>
                             </a>
                         </div>
                     </div>
@@ -57,34 +63,34 @@ function About() {
                         <p>Frontend</p>
                     </div>
                 </div>
-                <div class="box">
-                    <div class="data">
-                        <img src="../imgs/Ahmed_Eida.png" alt=""/>
-                        <div class="social">
+                <div className="box">
+                    <div className="data">
+                        <img src={Ahmed_Eida} alt=""/>
+                        <div className="social">
                             <a href="https://www.facebook.com/profile.php?id=100006536280657" target="_blank">
-                                <i class="fab fa-facebook-f"></i>
+                                <i className="fab fa-facebook-f"></i>
                             </a>
                             <a href="#">
-                                <i class="fab fa-twitter"></i>
+                                <i className="fab fa-twitter"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/ahmed-eida-24998125b/" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
+                                <i className="fab fa-linkedin-in"></i>
                             </a>
                             <a href="https://github.com/ahmedeida77" target="_blank">
-                                <i class="fab fa-github"></i>
+                                <i className="fab fa-github"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="info">
+                    <div className="info">
                         <h3>Ahmed Eida</h3>
                         <p>Frontend</p>
                     </div>
                 </div>
 
                 <div class="box">
-                    <div class="data">
-                        <img src="../imgs/Mohamed_Abohend.jpg" alt=""/>
-                        <div class="social">
+                    <div className="data">
+                        <img src={Mohamed_Abohend} alt=""/>
+                        <div className="social">
                             <a href="#">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
@@ -106,11 +112,11 @@ function About() {
                 </div>
 
                 <div class="box">
-                    <div class="data">
-                        <img src="../imgs/Mohamed_Fekry.jpg" alt=""/>
+                    <div className="data">
+                        <img src={Mohamed_Fekry} alt=""/>
                         <div class="social">
                             <a href="#">
-                                <i class="fab fa-facebook-f"></i>
+                                <i className="fab fa-facebook-f"></i>
                             </a>
                             <a href="#">
                                 <i class="fab fa-twitter"></i>
@@ -130,7 +136,7 @@ function About() {
                 </div>
                 <div class="box">
                     <div class="data">
-                        <img src="../imgs/Mohamed_Essam.png" alt=""/>
+                        <img src={Mohamed_Essam} alt=""/>
                         <div class="social">
                             <a href="https://www.facebook.com/profile.php?id=100009035405075"
                                target="_blank">
@@ -154,7 +160,7 @@ function About() {
                 </div>
                 <div class="box">
                     <div class="data">
-                        <img src="../imgs/Omer_Elbaz.png" alt=""/>
+                        <img src={Omer_Elbaz} alt=""/>
                         <div class="social">
                             <a href="https://www.facebook.com/Omar.Albaz001" target="_blank">
                                 <i class="fab fa-facebook-f"></i>
